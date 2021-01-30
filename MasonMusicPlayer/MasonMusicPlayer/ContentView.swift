@@ -44,15 +44,6 @@ struct ContentView: View {
                             .foregroundColor(.black)
                     }
                     
-//                    Button(action: {
-//                        self.audioPlayer.stop()
-//                    }) {
-//                        Text("Stop")
-//                            .font(.system(size: 25))
-//                            .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-//                            .foregroundColor(.black)
-//                    }
-                    
                     Button(action: {
                         if self.count < 3 {
                             self.count += 1
