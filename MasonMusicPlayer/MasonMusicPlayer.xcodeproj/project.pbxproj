@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E74BFCA325C598BE000B2936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74BFCA225C598BE000B2936 /* AppDelegate.swift */; };
+		E74BFCA525C598BE000B2936 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74BFCA425C598BE000B2936 /* SceneDelegate.swift */; };
+		E74BFCA725C598BE000B2936 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74BFCA625C598BE000B2936 /* ContentView.swift */; };
+		E74BFCAA25C598BE000B2936 /* MasonMusicPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E74BFCA825C598BE000B2936 /* MasonMusicPlayer.xcdatamodeld */; };
+		E74BFCAC25C598BF000B2936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74BFCAB25C598BF000B2936 /* Assets.xcassets */; };
+		E74BFCAF25C598BF000B2936 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74BFCAE25C598BF000B2936 /* Preview Assets.xcassets */; };
+		E74BFCB225C598BF000B2936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74BFCB025C598BF000B2936 /* LaunchScreen.storyboard */; };
+		E74BFCBD25C598BF000B2936 /* MasonMusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74BFCBC25C598BF000B2936 /* MasonMusicPlayerTests.swift */; };
+		E74BFCC825C598BF000B2936 /* MasonMusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74BFCC725C598BF000B2936 /* MasonMusicPlayerUITests.swift */; };
+		E74BFCD925C59CCC000B2936 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E74BFCD825C59CCC000B2936 /* song1.mp3 */; };
+		E74BFCDE25C59F0A000B2936 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E74BFCDD25C59F0A000B2936 /* song2.mp3 */; };
+		E74BFCE325C5A03C000B2936 /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E74BFCE225C5A03C000B2936 /* song3.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E74BFCB925C598BF000B2936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74BFC9725C598BE000B2936 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74BFC9E25C598BE000B2936;
+			remoteInfo = MasonMusicPlayer;
+		};
+		E74BFCC425C598BF000B2936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E74BFC9725C598BE000B2936 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E74BFC9E25C598BE000B2936;
+			remoteInfo = MasonMusicPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E74BFC9F25C598BE000B2936 /* MasonMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasonMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74BFCA225C598BE000B2936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E74BFCA425C598BE000B2936 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E74BFCA625C598BE000B2936 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E74BFCA925C598BE000B2936 /* MasonMusicPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MasonMusicPlayer.xcdatamodel; sourceTree = "<group>"; };
+		E74BFCAB25C598BF000B2936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E74BFCAE25C598BF000B2936 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E74BFCB125C598BF000B2936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E74BFCB325C598BF000B2936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74BFCB825C598BF000B2936 /* MasonMusicPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasonMusicPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74BFCBC25C598BF000B2936 /* MasonMusicPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasonMusicPlayerTests.swift; sourceTree = "<group>"; };
+		E74BFCBE25C598BF000B2936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74BFCC325C598BF000B2936 /* MasonMusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasonMusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74BFCC725C598BF000B2936 /* MasonMusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasonMusicPlayerUITests.swift; sourceTree = "<group>"; };
+		E74BFCC925C598BF000B2936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74BFCD825C59CCC000B2936 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song1.mp3; path = ../../../song1.mp3; sourceTree = "<group>"; };
+		E74BFCDD25C59F0A000B2936 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song2.mp3; path = ../../../song2.mp3; sourceTree = "<group>"; };
+		E74BFCE225C5A03C000B2936 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song3.mp3; path = ../../../song3.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E74BFC9C25C598BE000B2936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74BFCB525C598BF000B2936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74BFCC025C598BF000B2936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E74BFC9625C598BE000B2936 = {
+			isa = PBXGroup;
+			children = (
+				E74BFCA125C598BE000B2936 /* MasonMusicPlayer */,
+				E74BFCBB25C598BF000B2936 /* MasonMusicPlayerTests */,
+				E74BFCC625C598BF000B2936 /* MasonMusicPlayerUITests */,
+				E74BFCA025C598BE000B2936 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E74BFCA025C598BE000B2936 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E74BFC9F25C598BE000B2936 /* MasonMusicPlayer.app */,
+				E74BFCB825C598BF000B2936 /* MasonMusicPlayerTests.xctest */,
+				E74BFCC325C598BF000B2936 /* MasonMusicPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E74BFCA125C598BE000B2936 /* MasonMusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E74BFCA225C598BE000B2936 /* AppDelegate.swift */,
+				E74BFCA425C598BE000B2936 /* SceneDelegate.swift */,
+				E74BFCA625C598BE000B2936 /* ContentView.swift */,
+				E74BFCAB25C598BF000B2936 /* Assets.xcassets */,
+				E74BFCB025C598BF000B2936 /* LaunchScreen.storyboard */,
+				E74BFCB325C598BF000B2936 /* Info.plist */,
+				E74BFCA825C598BE000B2936 /* MasonMusicPlayer.xcdatamodeld */,
+				E74BFCD825C59CCC000B2936 /* song1.mp3 */,
+				E74BFCDD25C59F0A000B2936 /* song2.mp3 */,
+				E74BFCE225C5A03C000B2936 /* song3.mp3 */,
+				E74BFCAD25C598BF000B2936 /* Preview Content */,
+			);
+			path = MasonMusicPlayer;
+			sourceTree = "<group>";
+		};
+		E74BFCAD25C598BF000B2936 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E74BFCAE25C598BF000B2936 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E74BFCBB25C598BF000B2936 /* MasonMusicPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E74BFCBC25C598BF000B2936 /* MasonMusicPlayerTests.swift */,
+				E74BFCBE25C598BF000B2936 /* Info.plist */,
+			);
+			path = MasonMusicPlayerTests;
+			sourceTree = "<group>";
+		};
+		E74BFCC625C598BF000B2936 /* MasonMusicPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E74BFCC725C598BF000B2936 /* MasonMusicPlayerUITests.swift */,
+				E74BFCC925C598BF000B2936 /* Info.plist */,
+			);
+			path = MasonMusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E74BFC9E25C598BE000B2936 /* MasonMusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74BFCCC25C598BF000B2936 /* Build configuration list for PBXNativeTarget "MasonMusicPlayer" */;
+			buildPhases = (
+				E74BFC9B25C598BE000B2936 /* Sources */,
+				E74BFC9C25C598BE000B2936 /* Frameworks */,
+				E74BFC9D25C598BE000B2936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasonMusicPlayer;
+			productName = MasonMusicPlayer;
+			productReference = E74BFC9F25C598BE000B2936 /* MasonMusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E74BFCB725C598BF000B2936 /* MasonMusicPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74BFCCF25C598BF000B2936 /* Build configuration list for PBXNativeTarget "MasonMusicPlayerTests" */;
+			buildPhases = (
+				E74BFCB425C598BF000B2936 /* Sources */,
+				E74BFCB525C598BF000B2936 /* Frameworks */,
+				E74BFCB625C598BF000B2936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74BFCBA25C598BF000B2936 /* PBXTargetDependency */,
+			);
+			name = MasonMusicPlayerTests;
+			productName = MasonMusicPlayerTests;
+			productReference = E74BFCB825C598BF000B2936 /* MasonMusicPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E74BFCC225C598BF000B2936 /* MasonMusicPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E74BFCD225C598BF000B2936 /* Build configuration list for PBXNativeTarget "MasonMusicPlayerUITests" */;
+			buildPhases = (
+				E74BFCBF25C598BF000B2936 /* Sources */,
+				E74BFCC025C598BF000B2936 /* Frameworks */,
+				E74BFCC125C598BF000B2936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E74BFCC525C598BF000B2936 /* PBXTargetDependency */,
+			);
+			name = MasonMusicPlayerUITests;
+			productName = MasonMusicPlayerUITests;
+			productReference = E74BFCC325C598BF000B2936 /* MasonMusicPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E74BFC9725C598BE000B2936 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E74BFC9E25C598BE000B2936 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					E74BFCB725C598BF000B2936 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E74BFC9E25C598BE000B2936;
+					};
+					E74BFCC225C598BF000B2936 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = E74BFC9E25C598BE000B2936;
+					};
+				};
+			};
+			buildConfigurationList = E74BFC9A25C598BE000B2936 /* Build configuration list for PBXProject "MasonMusicPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E74BFC9625C598BE000B2936;
+			productRefGroup = E74BFCA025C598BE000B2936 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E74BFC9E25C598BE000B2936 /* MasonMusicPlayer */,
+				E74BFCB725C598BF000B2936 /* MasonMusicPlayerTests */,
+				E74BFCC225C598BF000B2936 /* MasonMusicPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E74BFC9D25C598BE000B2936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74BFCB225C598BF000B2936 /* LaunchScreen.storyboard in Resources */,
+				E74BFCAF25C598BF000B2936 /* Preview Assets.xcassets in Resources */,
+				E74BFCE325C5A03C000B2936 /* song3.mp3 in Resources */,
+				E74BFCDE25C59F0A000B2936 /* song2.mp3 in Resources */,
+				E74BFCD925C59CCC000B2936 /* song1.mp3 in Resources */,
+				E74BFCAC25C598BF000B2936 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74BFCB625C598BF000B2936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74BFCC125C598BF000B2936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E74BFC9B25C598BE000B2936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74BFCA325C598BE000B2936 /* AppDelegate.swift in Sources */,
+				E74BFCAA25C598BE000B2936 /* MasonMusicPlayer.xcdatamodeld in Sources */,
+				E74BFCA525C598BE000B2936 /* SceneDelegate.swift in Sources */,
+				E74BFCA725C598BE000B2936 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74BFCB425C598BF000B2936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74BFCBD25C598BF000B2936 /* MasonMusicPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E74BFCBF25C598BF000B2936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74BFCC825C598BF000B2936 /* MasonMusicPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E74BFCBA25C598BF000B2936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74BFC9E25C598BE000B2936 /* MasonMusicPlayer */;
+			targetProxy = E74BFCB925C598BF000B2936 /* PBXContainerItemProxy */;
+		};
+		E74BFCC525C598BF000B2936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E74BFC9E25C598BE000B2936 /* MasonMusicPlayer */;
+			targetProxy = E74BFCC425C598BF000B2936 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E74BFCB025C598BF000B2936 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E74BFCB125C598BF000B2936 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E74BFCCA25C598BF000B2936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E74BFCCB25C598BF000B2936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E74BFCCD25C598BF000B2936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MasonMusicPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = MY6ZXR826D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MasonMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mason.Bullseye.MasonMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E74BFCCE25C598BF000B2936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MasonMusicPlayer/Preview Content\"";
+				DEVELOPMENT_TEAM = MY6ZXR826D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MasonMusicPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mason.Bullseye.MasonMusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E74BFCD025C598BF000B2936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MY6ZXR826D;
+				INFOPLIST_FILE = MasonMusicPlayerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mason.Bullseye.MasonMusicPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MasonMusicPlayer.app/MasonMusicPlayer";
+			};
+			name = Debug;
+		};
+		E74BFCD125C598BF000B2936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MY6ZXR826D;
+				INFOPLIST_FILE = MasonMusicPlayerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mason.Bullseye.MasonMusicPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MasonMusicPlayer.app/MasonMusicPlayer";
+			};
+			name = Release;
+		};
+		E74BFCD325C598BF000B2936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MY6ZXR826D;
+				INFOPLIST_FILE = MasonMusicPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mason.Bullseye.MasonMusicPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MasonMusicPlayer;
+			};
+			name = Debug;
+		};
+		E74BFCD425C598BF000B2936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MY6ZXR826D;
+				INFOPLIST_FILE = MasonMusicPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mason.Bullseye.MasonMusicPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MasonMusicPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E74BFC9A25C598BE000B2936 /* Build configuration list for PBXProject "MasonMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74BFCCA25C598BF000B2936 /* Debug */,
+				E74BFCCB25C598BF000B2936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74BFCCC25C598BF000B2936 /* Build configuration list for PBXNativeTarget "MasonMusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74BFCCD25C598BF000B2936 /* Debug */,
+				E74BFCCE25C598BF000B2936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74BFCCF25C598BF000B2936 /* Build configuration list for PBXNativeTarget "MasonMusicPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74BFCD025C598BF000B2936 /* Debug */,
+				E74BFCD125C598BF000B2936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E74BFCD225C598BF000B2936 /* Build configuration list for PBXNativeTarget "MasonMusicPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E74BFCD325C598BF000B2936 /* Debug */,
+				E74BFCD425C598BF000B2936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E74BFCA825C598BE000B2936 /* MasonMusicPlayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E74BFCA925C598BE000B2936 /* MasonMusicPlayer.xcdatamodel */,
+			);
+			currentVersion = E74BFCA925C598BE000B2936 /* MasonMusicPlayer.xcdatamodel */;
+			path = MasonMusicPlayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E74BFC9725C598BE000B2936 /* Project object */;
+}
